@@ -1,0 +1,27 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// v-toaster css
+@import '~v-toaster/dist/v-toaster.css';
+
+body {
+  background-color: $body-bg;
+}
+
+.navbar-laravel {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#msgs {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid;
+  box-shadow: 5px 10px 10px #888;
+}

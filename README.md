@@ -60,3 +60,4 @@
 * Used `beforeMount` lifecycle hook in `resources/assets/js/app.js` to show the 10 latest messages from database with `light` background color
 * Removed `/home` route and `HomeController.php`
 * Added `logout` button in `resources/views/chat.blade.php`
+* `VueJS` is not used for `login` or `register`, so a separate `public/js/bootstrap.js` is compiled from `resources/assets/js/bootstrap.js` for those views
